@@ -10,10 +10,18 @@ export type Question = {
 };
 
 function App() {
-  const [questions] = useState<Question[]>(myQuestions);
+  const [questions] = useState<Question[]>(shuffleQuestions(myQuestions));
   const [isOver, setIsOver] = useState<boolean>(false);
   const [score, setScore] = useState<number>(0);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
+
+  function shuffleQuestions(questions: Question[]): Question[] {
+    for (let i = questions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [questions[i], questions[j]] = [questions[j], questions[i]];
+    }
+    return questions;
+  }
 
   function handleSubmit(selectedAnswer: string | null) {
     if (selectedAnswer !== null) {
