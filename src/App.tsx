@@ -14,7 +14,6 @@ function shuffleQuestions(questions: Question[]): Question[] {
     const j = Math.floor(Math.random() * (i + 1));
     [questions[i], questions[j]] = [questions[j], questions[i]];
   }
-  console.log(questions);
   return questions;
 }
 
