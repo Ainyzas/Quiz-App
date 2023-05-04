@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledQuestionCardDiv = styled.div`
-  width: 35%;
+  width: 50%;
   margin: 5rem auto;
   padding: 2rem;
   display: flex;
@@ -28,6 +28,10 @@ export const StyledQuestionCardDiv = styled.div`
     :hover {
       cursor: pointer;
     }
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 80%;
   }
 `;
 

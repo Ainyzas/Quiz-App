@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledDiv = styled.div`
-  width: 10%;
+  width: 15%;
   margin: 5rem auto;
   padding: 1rem;
   display: flex;
@@ -28,5 +28,13 @@ export const StyledDiv = styled.div`
     :hover {
       cursor: pointer;
     }
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 25%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 40%;
   }
 `;
