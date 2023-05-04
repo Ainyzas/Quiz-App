@@ -7,8 +7,8 @@ export const myQuestions = [
   {
     questionText: 'What is JSX in React?',
     options: [
-      'A syntax extension for JavaScript',
       'A library for building user interfaces',
+      'A syntax extension for JavaScript',
       'A build tool for React applications',
       'A package manager for React applications',
     ],
@@ -17,9 +17,9 @@ export const myQuestions = [
   {
     questionText: 'What is the difference between props and state in React?',
     options: [
-      'Props are immutable, while state can be changed',
       'Props can be changed, while state is immutable',
       'Props and state are the same thing',
+      'Props are immutable, while state can be changed',
       'Props and state are used for different purposes',
     ],
     correctAnswer: 'Props are immutable, while state can be changed',
@@ -27,8 +27,8 @@ export const myQuestions = [
   {
     questionText: 'What is the purpose of the virtual DOM in React?',
     options: [
-      'To improve performance by minimizing the number of DOM updates',
       'To render React components on the server',
+      'To improve performance by minimizing the number of DOM updates',
       'To create a virtual representation of the entire web page',
       'To improve accessibility for users with disabilities',
     ],
@@ -37,9 +37,9 @@ export const myQuestions = [
   {
     questionText: 'What is the purpose of React Router?',
     options: [
-      'To handle navigation between different views in a React application',
       'To handle user input in a React application',
       'To manage the state of a React application',
+      'To handle navigation between different views in a React application',
       'To fetch data from a server in a React application',
     ],
     correctAnswer: 'To handle navigation between different views in a React application',
@@ -47,19 +47,19 @@ export const myQuestions = [
   {
     questionText: 'What is a higher-order component in React?',
     options: [
-      'A function that takes a component and returns a new component with additional functionality',
       'A component that renders other components',
       'A component that is used to manage state',
       'A component that is used to handle user input',
+      'A function that takes a component and returns a new component with additional functionality',
     ],
     correctAnswer: 'A function that takes a component and returns a new component with additional functionality',
   },
   {
     questionText: 'What is Redux in React?',
     options: [
-      'A state management library',
       'A build tool for React applications',
       'A package manager for React applications',
+      'A state management library',
       'A UI component library',
     ],
     correctAnswer: 'A state management library',
@@ -67,9 +67,9 @@ export const myQuestions = [
   {
     questionText: 'What is the purpose of the componentDidMount lifecycle method in React?',
     options: [
-      'To perform actions after a component has been mounted on the DOM',
       'To perform actions before a component has been mounted on the DOM',
       'To update the state of a component',
+      'To perform actions after a component has been mounted on the DOM',
       'To handle user input in a component',
     ],
     correctAnswer: 'To perform actions after a component has been mounted on the DOM',
@@ -87,19 +87,19 @@ export const myQuestions = [
   {
     questionText: 'What is the purpose of the componentWillUnmount lifecycle method in React?',
     options: [
-      'To perform cleanup actions before a component is removed from the DOM',
       'To perform actions after a component has been removed from the DOM',
       'To update the state of a component',
       'To handle user input in a component',
+      'To perform cleanup actions before a component is removed from the DOM',
     ],
     correctAnswer: 'To perform cleanup actions before a component is removed from the DOM',
   },
   {
     questionText: 'What is the difference between `undefined` and `null` in JavaScript?',
     options: [
-      '`undefined` means a variable has been declared but has not yet been assigned a value, whereas `null` is an assignment value representing no value or no object.',
       '`null` means a variable has been declared but has not yet been assigned a value, whereas `undefined` is an assignment value representing no value or no object.',
       '`undefined` and `null` are the same thing in JavaScript.',
+      '`undefined` means a variable has been declared but has not yet been assigned a value, whereas `null` is an assignment value representing no value or no object.',
       'Both `undefined` and `null` are not used in JavaScript.',
     ],
     correctAnswer:
@@ -108,8 +108,8 @@ export const myQuestions = [
   {
     questionText: 'What are the different data types available in JavaScript?',
     options: [
-      'Number, String, Boolean, Object, Undefined, Null, Symbol',
       'Integer, Float, Character, Object, Void, Function',
+      'Number, String, Boolean, Object, Undefined, Null, Symbol',
       'Text, Boolean, Undefined, Null, Symbol',
       'None of the above',
     ],
@@ -123,8 +123,8 @@ export const myQuestions = [
   {
     questionText: 'What is the difference between `var`, `let`, and `const` in JavaScript?',
     options: [
-      '`var` is function-scoped, `let` and `const` are block-scoped.',
       '`let` and `const` are function-scoped, `var` is block-scoped.',
+      '`var` is function-scoped, `let` and `const` are block-scoped.',
       '`const` is function-scoped, `var` and `let` are block-scoped.',
       '`var`, `let`, and `const` are all function-scoped.',
     ],
@@ -143,10 +143,10 @@ export const myQuestions = [
   {
     questionText: 'What is a closure in JavaScript?',
     options: [
-      'A closure is a function that has access to its outer function scope, even after the outer function has returned.',
       'A closure is a function that has access to its inner function scope, even before the inner function has been called.',
       'A closure is a function that has access to the global scope, even after the function has returned.',
       'A closure is a function that has access to the global scope, even before the function has been called.',
+      'A closure is a function that has access to its outer function scope, even after the outer function has returned.',
     ],
     correctAnswer:
       'A closure is a function that has access to its outer function scope, even after the outer function has returned.',
@@ -154,9 +154,9 @@ export const myQuestions = [
   {
     questionText: 'What is the purpose of the `this` keyword in JavaScript?',
     options: [
-      'The `this` keyword refers to the object that the function belongs to or the global object if it is not inside a function.',
       'The `this` keyword refers to the object that the function belongs to or `undefined` if it is not inside a function.',
       'The `this` keyword refers to the global object in all cases.',
+      'The `this` keyword refers to the object that the function belongs to or the global object if it is not inside a function.',
       'The `this` keyword has no purpose in JavaScript.',
     ],
     correctAnswer:
@@ -165,9 +165,9 @@ export const myQuestions = [
   {
     questionText: 'What is a callback function in JavaScript?',
     options: [
-      'A callback function is a function that is passed as an argument to another function and is executed after some operation has been completed.',
       'A callback function is a function that is called before another function is executed.',
       'A callback function is a function that is called inside another function.',
+      'A callback function is a function that is passed as an argument to another function and is executed after some operation has been completed.',
       'A callback function is a function that is executed immediately when it is defined.',
     ],
     correctAnswer:
@@ -187,8 +187,8 @@ export const myQuestions = [
   {
     questionText: 'What is the difference between `const` and `let` in JavaScript?',
     options: [
-      '`const` variables cannot be re-assigned, while `let` variables can be re-assigned.',
       '`let` variables cannot be re-assigned, while `const` variables can be re-assigned.',
+      '`const` variables cannot be re-assigned, while `let` variables can be re-assigned.',
       '`const` and `let` variables are both immutable in JavaScript.',
       'None of the above.',
     ],
@@ -197,16 +197,16 @@ export const myQuestions = [
   {
     questionText: 'What is Node.js?',
     options: [
-      'A programming language',
       'A web browser',
       'A server-side JavaScript runtime',
+      'A programming language',
       'A client-side JavaScript runtime',
     ],
     correctAnswer: 'A server-side JavaScript runtime',
   },
   {
     questionText: 'What is the Node.js module system called?',
-    options: ['CommonJS', 'ECMAScript', 'AMD', 'UMD'],
+    options: ['ECMAScript', 'CommonJS', 'AMD', 'UMD'],
     correctAnswer: 'CommonJS',
   },
   {
@@ -216,14 +216,14 @@ export const myQuestions = [
   },
   {
     questionText: 'Which of the following is not a core module in Node.js?',
-    options: ['http', 'fs', 'path', 'ajax'],
+    options: ['fs', 'path', 'ajax', 'http'],
     correctAnswer: 'ajax',
   },
   {
     questionText: 'What is a callback in Node.js?',
     options: [
-      'A function that is called after an event occurs',
       'A function that is called before an event occurs',
+      'A function that is called after an event occurs',
       'A function that is executed immediately when it is defined',
       'A function that is called at a specific time',
     ],
@@ -232,9 +232,9 @@ export const myQuestions = [
   {
     questionText: 'What is the difference between `setImmediate()` and `setTimeout()` in Node.js?',
     options: [
-      '`setImmediate()` schedules a callback function to be executed in the next iteration of the event loop, while `setTimeout()` schedules a callback function to be executed after a specified delay.',
       '`setTimeout()` schedules a callback function to be executed in the next iteration of the event loop, while `setImmediate()` schedules a callback function to be executed after a specified delay.',
       '`setImmediate()` and `setTimeout()` are the same thing in Node.js.',
+      '`setImmediate()` schedules a callback function to be executed in the next iteration of the event loop, while `setTimeout()` schedules a callback function to be executed after a specified delay.',
       'None of the above.',
     ],
     correctAnswer:
@@ -243,9 +243,9 @@ export const myQuestions = [
   {
     questionText: 'What is the purpose of the `require()` function in Node.js?',
     options: [
-      'To load modules in Node.js',
       'To export modules in Node.js',
       'To install packages in Node.js',
+      'To load modules in Node.js',
       'To execute JavaScript code in Node.js',
     ],
     correctAnswer: 'To load modules in Node.js',
@@ -253,10 +253,10 @@ export const myQuestions = [
   {
     questionText: 'What is the purpose of the `process` object in Node.js?',
     options: [
-      'To provide information about the current Node.js process',
       'To manage child processes in Node.js',
       'To interact with the file system in Node.js',
       'To create a web server in Node.js',
+      'To provide information about the current Node.js process',
     ],
     correctAnswer: 'To provide information about the current Node.js process',
   },
