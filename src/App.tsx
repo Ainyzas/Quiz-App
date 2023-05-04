@@ -10,7 +10,7 @@ export type Question = {
 };
 
 function App() {
-  const [questions, setQuestions] = useState<Question[]>(myQuestions);
+  const [questions] = useState<Question[]>(myQuestions);
   const [isOver, setIsOver] = useState<boolean>(false);
   const [score, setScore] = useState<number>(0);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
